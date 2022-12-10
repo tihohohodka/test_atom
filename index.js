@@ -1,6 +1,7 @@
 const http = require("http");
-const host = 'https://testatom-production.up.railway.app/';
+const host = 'localhost';
 const port = 8000;
+
 
 const requestListener = function (req, res) {
     res.writeHead(200);
