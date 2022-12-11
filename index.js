@@ -6,6 +6,7 @@ const port = 5500;
 const requestListener = function (req, res) {
   res.setHeader("Content-Type", "application/json");
       res.writeHead(200);
+       res.setHeader("Access-Control-Allow-Origin", "*");
       res.end(`{"message": "This is a JSON response"}`);
 };
 const server = http.createServer(requestListener);
