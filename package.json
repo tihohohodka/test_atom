@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/tihohohodka/test_atom/issues"
   },
-  "homepage": "https://github.com/tihohohodka/test_atom#readme"
+  "homepage": "https://github.com/tihohohodka/test_atom#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
 }

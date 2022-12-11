@@ -4,7 +4,7 @@ const port = 8080;
 
 
 const requestListener = function (req, res) {
-  res.setHeader("Content-Type", "application/json");
+  res.setHeader("Content-Type", "application/json", 'Access-Control-Allow-Origin','*');
       res.writeHead(200);
       res.end(`{"message": "This is a JSON response"}`);
 };
